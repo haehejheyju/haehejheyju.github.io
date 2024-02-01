@@ -74,3 +74,13 @@ sass:
 
 plugins:
  - jekyll-include-cache
+
+menu:
+  - title: Archive
+    url:   /archive/
+  - title: Maths
+    url:   /maths/
+  - title: Cryptography
+    url:   /cryptography/
+  - title: Programming
+    url:   /programming/

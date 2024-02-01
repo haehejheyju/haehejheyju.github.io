@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The Josephus Problem
+permalink: /maths/
 excerpt_separator: 
 date: 29th Jan 2024
 ---
