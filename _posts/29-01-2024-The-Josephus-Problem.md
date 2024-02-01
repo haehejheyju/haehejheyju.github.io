@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The Josephus Problem
 excerpt_separator: 
 date: 29th Jan 2024
