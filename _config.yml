@@ -4,7 +4,7 @@ copyright:             © 2024. All rights reserved.
 
 accent_image:          /assets/img/sidebar.jpg
 accent_color:          rgb(179,165,128)
-theme_color:           rgb(0,73,0)
+theme_color:           rgb(21,87,6)
 
 google_fonts:          Domine:700|EB+Garamond:400,400i,700,700i
 font:                  EB+Garamond, Domine, serif
@@ -84,3 +84,10 @@ menu:
     url:   /cryptography/
   - title: Programming
     url:   /programming/
+
+author:
+  social:
+    github: haehejheyju
+
+favicon: /favicon.ico
+apple_touch_icon: /assets/img/faviconlogo.png
