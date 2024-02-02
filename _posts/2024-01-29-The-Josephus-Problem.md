@@ -5,7 +5,7 @@ permalink: /maths/
 date: 29th Jan 2024
 ---
 
-HISTORY
+**HISTORY**
 {:.lead}
 
 The problem probably dates back to the "decimatio", the collective punishment practised by the Roman army where every tenth man in a detachment was chosen by drawing lots and punished. In literature, it is linked to an event that occurred in the life of the Jewish historian Flavius Josephus in 67 A.D. – hence the name "the Josephus problem": when the city of Yodfat was besieged by the Roman General Vespasian, the Jewish soldiers decided to commit collective suicide. Nonetheless, Josephus was afraid to disagree so he suggested to arrange themselves in such a way that he and his best friend remained at the end after drawing lots.
@@ -14,7 +14,7 @@ A [reference link 1](https://library.ethz.ch/en/locations-and-media/platforms/vi
 
 ![image](/assets/img/TheJosephusProblem/tjp1.jpg)
 
-RULE
+**RULE**
 {:.lead}
 
 The Jewish solders would arrange themselves in a circle, and the 1st soldier would kill the person to the left of him - hence in clockwise direction. The next remaining living soldier would kill person to the left of him, and it repeats untill only one person is left. As Josephus wanted to survive, he had to figure out WHERE  he should sit within the circle.
@@ -24,7 +24,7 @@ Refer to the examples below:
 ![image](/assets/img/TheJosephusProblem/tjp2.jpg)
 ![image](/assets/img/TheJosephusProblem/tjp3.jpg)
 
-PATTERNS VIA TRIAL & ERROR
+**PATTERNS VIA TRIAL & ERROR**
 {:.lead}
 
 |--------------+-------------------------|
@@ -52,7 +52,7 @@ PATTERNS VIA TRIAL & ERROR
 When do we reset? Where do we get the 1?
 As we refer to the table, we can identify that the n that gives W(n)=1 are always power of 2. Hence, we can now guess that if n=15, then W(n)=1 .
 
-CONJECTURE
+**CONJECTURE**
 {:.lead}
 
 Now, we have to state a conjecture and then prove a theorem based on what we just identified here.
@@ -73,7 +73,7 @@ e.g. n=2^4=16.
 4. 1 wins: 
 ![image](/assets/img/TheJosephusProblem/tjp7.jpg)
 
-WHAT ABOUT n≠2^x?
+**WHAT ABOUT n≠2^x?**
 {:.lead}
 
 We have figured out what happens for W(n) of n=4 and n=8 ,  but not for W(n) of n between n=4 and n=8.
@@ -129,7 +129,7 @@ then W(n) = 2a + 1
 |      11      |   8+3   |            2(3)+1=7              |
 |      12      |   8+4   |            2(4)+1=9              |
 
-FUN FACT (Perhaps a trick?)
+**FUN FACT (Perhaps a trick?)**
 {:.lead}
 
 A number (denary AKA decimal), can be re-expressed in binary notation.
