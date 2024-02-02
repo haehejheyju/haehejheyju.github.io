@@ -6,9 +6,9 @@ accent_image:          /assets/img/sidebar.jpg
 accent_color:          rgb(179,165,128)
 theme_color:           rgb(21,87,6)
 
-google_fonts:          Domine:700|EB+Garamond:400,400i,700,700i
-font:                  EB+Garamond, Domine, serif
-font_heading:          EB+Garamond, Domine, serif
+google_fonts:          EB+Garamond:700|Crimson+Text:400,400i,700,700i
+font:                  Crimson+Text, EB+Garamond, serif
+font_heading:          Crimson+Text, EB+Garamond, serif
 
 hydejack:
   post_addons:         [about, newsletter, related, random, comments]
