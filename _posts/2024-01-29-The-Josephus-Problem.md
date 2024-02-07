@@ -12,7 +12,7 @@ The problem probably dates back to the "decimatio", the collective punishment pr
 
 A [reference link 1](https://library.ethz.ch/en/locations-and-media/platforms/virtual-exhibitions/Its-all-math-and-games/the-josephus-problem.html) to the ETH Bibliothek.<br>
 
-![image](/assets/img/TheJosephusProblem/tjp1.jpg)
+![image](/assets/img/TheJosephusProblem/tjp1.jpg){: width="250" }
 
 **RULE**
 {:.lead}
