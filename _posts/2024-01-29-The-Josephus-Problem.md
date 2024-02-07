@@ -63,19 +63,19 @@ Conjecture: If n = 2^x then W(n) = 1
 
 e.g. n=2^4=16.
 
-i. Remove all the evens (according to the rule):
+I. Remove all the evens (according to the rule):
 
 ![image](/assets/img/TheJosephusProblem/tjp4.jpg){: width="200" }
 
-ii. Put a dot on 1 so we can remember that it is 1’s turn again. When I relabel at this point, n=2^3=8 - the number of remaining ones are powers of two again:
+II. Put a dot on 1 so we can remember that it is 1’s turn again. When I relabel at this point, n=2^3=8 - the number of remaining ones are powers of two again:
 
 ![image](/assets/img/TheJosephusProblem/tjp5.jpg){: width="200" }
 
-iii. It’s still 1’s turn after the second round. So I go through again:
+III. It’s still 1’s turn after the second round. So I go through again:
 
 ![image](/assets/img/TheJosephusProblem/tjp6.jpg){: width="200" }
 
-iv. 1 wins: 
+IV. 1 wins: 
 
 ![image](/assets/img/TheJosephusProblem/tjp7.jpg){: width="200" }
 
@@ -104,15 +104,15 @@ e.g.
 The biggest one is 2^3. 
 Hence n = 8 + 5
 
-i. According to a = 5, go 5 steps:
+I. According to a = 5, go 5 steps:
 
 ![image](/assets/img/TheJosephusProblem/tjp8.jpg){: width="200" }
 
-ii. Now I have dropped a people, and it is number 11’s turn:
+II. Now I have dropped a people, and it is number 11’s turn:
 
 ![image](/assets/img/TheJosephusProblem/tjp9.jpg){: width="200" }
 
-iii. 8 people, AKA 2^3 people are left. We know who wins in a power of two, it’s whoever starts. Therefore, if I go from number 11, number 11 wins. 
+III. 8 people, AKA 2^3 people are left. We know who wins in a power of two, it’s whoever starts. Therefore, if I go from number 11, number 11 wins. 
 
 ![image](/assets/img/TheJosephusProblem/tjp10.jpg){: width="200" }
 
