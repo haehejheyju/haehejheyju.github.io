@@ -22,6 +22,8 @@ The Jewish soldiers would arrange themselves in a circle, and the 1st soldier wo
 Refer to the examples below:
 
 ![image](/assets/img/TheJosephusProblem/tjp2.jpg){: width="450" }
+
+
 ![image](/assets/img/TheJosephusProblem/tjp3.jpg){: width="400" }
 
 **PATTERNS VIA TRIAL & ERROR**
