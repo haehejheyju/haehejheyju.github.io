@@ -12,7 +12,7 @@ The problem probably dates back to the "decimatio", the collective punishment pr
 
 A [reference link 1](https://library.ethz.ch/en/locations-and-media/platforms/virtual-exhibitions/Its-all-math-and-games/the-josephus-problem.html) to the ETH Bibliothek.<br>
 
-![image](/assets/img/TheJosephusProblem/tjp1.jpg){: width="250" }
+![image](/assets/img/TheJosephusProblem/tjp1.jpg){: width="450" }
 
 **RULE**
 {:.lead}
@@ -21,8 +21,8 @@ The Jewish soldiers would arrange themselves in a circle, and the 1st soldier wo
 
 Refer to the examples below:
 
-![image](/assets/img/TheJosephusProblem/tjp2.jpg)
-![image](/assets/img/TheJosephusProblem/tjp3.jpg)
+![image](/assets/img/TheJosephusProblem/tjp2.jpg){: width="450" }
+![image](/assets/img/TheJosephusProblem/tjp3.jpg){: width="450" }
 
 **PATTERNS VIA TRIAL & ERROR**
 {:.lead}
@@ -62,16 +62,16 @@ Conjecture: If n = 2^x then W(n) = 1
 e.g. n=2^4=16.
 
 1. Remove all the evens (according to the rule):
-![image](/assets/img/TheJosephusProblem/tjp4.jpg)
+![image](/assets/img/TheJosephusProblem/tjp4.jpg){: width="350" }
 
 2. Put a dot on 1 so we can remember that it is 1’s turn again. When I relabel at this point, n=2^3=8 - the number of remaining ones are powers of two again:
-![image](/assets/img/TheJosephusProblem/tjp5.jpg)
+![image](/assets/img/TheJosephusProblem/tjp5.jpg){: width="350" }
 
 3. It’s still 1’s turn after the second round. So I go through again:
-![image](/assets/img/TheJosephusProblem/tjp6.jpg)
+![image](/assets/img/TheJosephusProblem/tjp6.jpg){: width="350" }
 
 4. 1 wins: 
-![image](/assets/img/TheJosephusProblem/tjp7.jpg)
+![image](/assets/img/TheJosephusProblem/tjp7.jpg){: width="350" }
 
 **WHAT ABOUT n≠2^x?**
 {:.lead}
@@ -99,13 +99,13 @@ The biggest one is 2^3.
 Hence n = 8 + 5
 
 1. According to a = 5, go 5 steps:
-![image](/assets/img/TheJosephusProblem/tjp8.jpg)
+![image](/assets/img/TheJosephusProblem/tjp8.jpg){: width="350" }
 
 2. Now I have dropped a people, and it is number 11’s turn:
-![image](/assets/img/TheJosephusProblem/tjp9.jpg)
+![image](/assets/img/TheJosephusProblem/tjp9.jpg){: width="350" }
 
 3. 8 people, AKA 2^3 people are left. We know who wins in a power of two, it’s whoever starts. Therefore, if I go from number 11, number 11 wins. 
-![image](/assets/img/TheJosephusProblem/tjp10.jpg)
+![image](/assets/img/TheJosephusProblem/tjp10.jpg){: width="350" }
 
 Which is, if a number is written as 2^x + a , whichever turn it is after *a* steps wins. 
 After trying few times with other numbers, we can identify that W(n) = 2a + 1 .
@@ -141,7 +141,7 @@ equals to
 101001
 
 It is noticeably faster to find W(n) in binary notation as all you need to do is to take the most significant bit (MSB), and put it at the end, letting it to be the least significant bit (LSB).
-![image](/assets/img/TheJosephusProblem/tjp11.jpg)
+![image](/assets/img/TheJosephusProblem/tjp11.jpg){: width="300" }
 
 A [reference link 2](https://youtu.be/uCsD3ZGzMgE?si=0loMzhJdAZgvHRdZ) to Numberphile (YT).<br>
 
