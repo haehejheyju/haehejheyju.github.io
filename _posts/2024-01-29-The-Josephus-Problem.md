@@ -161,6 +161,6 @@ The Josephus problem is a well known puzzle in Mathematics and Computer science;
 ## REFERENCES
 {:.lead}
 
-ETH Zürich - ETH Library - [The Josephus Problem](https://library.ethz.ch/en/locations-and-media/platforms/virtual-exhibitions/Its-all-math-and-games/the-josephus-problem.html)
+**ETH Zürich - ETH Library -** [The Josephus Problem](https://library.ethz.ch/en/locations-and-media/platforms/virtual-exhibitions/Its-all-math-and-games/the-josephus-problem.html)
 
-(YouTube) Numberphile - [The Josephus Problem](https://youtu.be/uCsD3ZGzMgE?si=0loMzhJdAZgvHRdZ)
+**(YouTube) Numberphile -** [The Josephus Problem](https://youtu.be/uCsD3ZGzMgE?si=0loMzhJdAZgvHRdZ)
