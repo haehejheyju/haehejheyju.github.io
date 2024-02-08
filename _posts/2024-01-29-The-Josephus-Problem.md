@@ -5,14 +5,14 @@ permalink: /maths/
 date: 29th Jan 2024
 ---
 
-**# HISTORY**
+# HISTORY
 {:.lead}
 
 The problem probably dates back to the "decimatio", the collective punishment practised by the Roman army where every tenth man in a detachment was chosen by drawing lots and punished. In literature, it is linked to an event that occurred in the life of the Jewish historian Flavius Josephus in 67 A.D. – hence the name "the Josephus problem": when the city of Yodfat was besieged by the Roman General Vespasian, the Jewish soldiers decided to commit collective suicide. Nonetheless, Josephus was afraid to disagree so he suggested to arrange themselves in such a way that he and his best friend remained at the end after drawing lots.
 
 ![image](/assets/img/TheJosephusProblem/tjp1.jpg){: width="450" }
 
-**# RULE**
+# RULE
 {:.lead}
 
 The Jewish soldiers would arrange themselves in a circle, and the 1st soldier would kill the person to the left of him - hence in clockwise direction. The next remaining living soldier would kill person to the left of him, and it repeats until only one person is left. As Josephus wanted to survive, he had to figure out WHERE  he should sit within the circle.
@@ -24,7 +24,7 @@ Refer to the examples below:
 
 ![image](/assets/img/TheJosephusProblem/tjp3.jpg){: width="400" }
 
-**# PATTERNS VIA TRIAL & ERROR**
+# PATTERNS VIA TRIAL & ERROR
 {:.lead}
 
 |--------------+-------------------------|
@@ -52,7 +52,7 @@ Refer to the examples below:
 When do we reset? Where do we get the 1?
 As we refer to the table, we can identify that the n that gives W(n)=1 are always power of 2. Hence, we can now guess that if n=15, then W(n)=1 .
 
-**# CONJECTURE**
+# CONJECTURE
 {:.lead}
 
 Now, we have to state a conjecture and then prove a theorem based on what we just identified here.
@@ -77,7 +77,7 @@ IV. 1 wins:
 
 ![image](/assets/img/TheJosephusProblem/tjp7.jpg){: width="200" }
 
-**# WHAT ABOUT n≠2^x?**
+# WHAT ABOUT n≠2^x?
 {:.lead}
 
 We have figured out what happens for W(n) of n=4 and n=8 ,  but not for W(n) of n between n=4 and n=8.
@@ -136,7 +136,7 @@ then W(n) = 2a + 1
 |      11      |   8+3   |            2(3)+1=7              |
 |      12      |   8+4   |            2(4)+1=9              |
 
-**# FUN FACT (Perhaps a trick?)**
+# FUN FACT (Perhaps a trick?)
 {:.lead}
 
 A number (denary AKA decimal), can be re-expressed in binary notation.
@@ -151,14 +151,14 @@ It is noticeably faster to find W(n) in binary notation as all you need to do is
 
 ![image](/assets/img/TheJosephusProblem/tjp11.jpg){: width="200" }
 
-**# TO CONCLUDE,**
+# TO CONCLUDE,
 {:.lead}
 
 The Josephus problem is a well known puzzle in Mathematics and Computer science; some even claim that it is an ancient Maths problem beloved by many Computer scientists. Although the proofs above are done by mathematical means, the concept of this problem is also applied in Computer science to computer algorithms, data structures, and image encryption. The proof I have shown above is the simplest approach to solve the Josephus problem, I suppose. Nonetheless, I believe this was more than enough to boost my enthusiasm towards solving problems or theorems that both Mathematics and Computer science intersect. ~~I could have done a deeper research on the Josephus problem - the one with more ‘advanced’ maths equations, but I just could not wait to upload my first post on my GitHub hosted website!~~ I should, perhaps, re-approach the Josephus problem with codes or that ‘advanced’ maths equations in the not-too-distant future to obtain a wider perspective of understanding certain problems.
 
 ---
 
-**# REFERENCES**
+# REFERENCES
 {:.lead}
 
 ETH Zürich - ETH Library - [The Josephus Problem](https://library.ethz.ch/en/locations-and-media/platforms/virtual-exhibitions/Its-all-math-and-games/the-josephus-problem.html)
