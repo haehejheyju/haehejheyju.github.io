@@ -2,6 +2,8 @@ lang: en-gb
 
 title: haehejheyju
 
+description: A random A-Level student.
+
 author:
   name: 'Haeju Kim'
   social:
@@ -24,7 +26,7 @@ font: EB+Garamond, Domine, serif
 font_heading: EB+Garamond, Domine, serif
 
 - scope:
-      path: assets/**
+      path: assets/
     values:
       sitemap: false
 
