@@ -1,38 +1,38 @@
-lang: ko-KR, en-UK
+lang: en-gb
 
 title: haehejheyju
 
 author:
-  name: Haeju Kim
+  name: 'Haeju Kim'
   social:
     github: haehejheyju
 
-copyright:             © 2024. All rights reserved.
+copyright: © 2024. All rights reserved.
 
-permalink:             none
+permalink: none
 
-paginate:              10
-paginate_path:         /page-:num/
-excerpt_separator:     <!--more-->
+paginate: 10
+paginate_path: /page-:num/
+excerpt_separator: <!--more-->
 
-accent_image:          /assets/img/sidebar.jpg
-accent_color:          rgb(179,165,128)
-theme_color:           rgb(21,87,6)
+accent_image: /assets/img/sidebar.jpg
+accent_color: rgb(179,165,128)
+theme_color: rgb(21,87,6)
 
-google_fonts:          Domine:700|EB+Garamond:400,400i,700,700i
-font:                  EB+Garamond, Domine, serif
-font_heading:          EB+Garamond, Domine, serif
+google_fonts: Domine:700|EB+Garamond:400,400i,700,700i
+font: EB+Garamond, Domine, serif
+font_heading: EB+Garamond, Domine, serif
 
 - scope:
-      path:            assets/**
+      path: assets/**
     values:
-      sitemap:         false
+      sitemap: false
 
 - scope:
-      type:            featured_categories
+      type: featured_categories
     values:
       seo:
-        type:          WebPage
+        type: WebPage
 
   no_mark_external:    false
   no_push_state:       false
