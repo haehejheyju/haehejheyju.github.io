@@ -7,9 +7,18 @@ description:           >
 tagline:               >
   Hello! Pleased to meet you.
 
+author:
+  name: Haeju Kim
+  social:
+    github: haehejheyju
+
 copyright:             © 2024. All rights reserved.
 
-permalink: none
+permalink:             none
+
+paginate:              10
+paginate_path:         /page-:num/
+excerpt_separator:     <!--more-->
 
 accent_image:          /assets/img/sidebar.jpg
 accent_color:          rgb(179,165,128)
@@ -18,6 +27,17 @@ theme_color:           rgb(21,87,6)
 google_fonts:          Domine:700|EB+Garamond:400,400i,700,700i
 font:                  EB+Garamond, Domine, serif
 font_heading:          EB+Garamond, Domine, serif
+
+- scope:
+      path:            assets/**
+    values:
+      sitemap:         false
+
+- scope:
+      type:            featured_categories
+    values:
+      seo:
+        type:          WebPage
 
 hydejack:
   post_addons:         [about, newsletter, related, random, comments]
@@ -57,6 +77,46 @@ hydejack:
     precache_assets:
       - /assets/img/swipe.svg
 
+collections:
+ featured_categories:
+   permalink: /:Maths/
+   output: true
+
+   permalink: /:Cryptography/
+   output: true
+
+   permalink: /:Programming/
+   output: true
+
+exclude:
+  - .jekyll-cache
+  - .sass-cache
+  - '*.toml'
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+include:
+  - .well-known
+  - LICENSE.md
+
+plugins:
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jekyll-include-cache
+  - jekyll-last-modified-at
+  - jemoji
+
+#google_site_verification: "zIn7l_GwuOi4WnyRQsdhI9Jpn6IAs0SLR_4HG8OZzsM"
+
 optional_front_matter:
   remove_originals:    true
 
@@ -81,34 +141,38 @@ compress_html:
 sass:
   style:               compressed
 
-plugins:
- - jekyll-include-cache
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      layout: post
+      description: >
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/sidebar.jpg
+    posts:
+      layout: post
+      description: >
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/sidebar.jpg
+    projects:
+      layout: project
+      description: >
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/sidebar.jpg
+      links:
+        - title: Project Link
+          url: https://example.com
 
-menu:
-  - title: Archive
-    url:   /archive/
-  - title: Maths
-    url:   /maths/
-  - title: Cryptography
-    url:   /cryptography/
-  - title: Programming
-    url:   /programming/
-
-collections:
- featured_categories:
-   permalink: /:Maths/
-   output: true
-
-   permalink: /:Cryptography/
-   output: true
-
-   permalink: /:Programming/
-   output: true
-
-author:
-  name: Haeju Kim
-  social:
-    github: haehejheyju
+feed:
+  categories:
+    - Maths
+    - Cryptography
+    - Programming
 
 favicon: /assets/icons/faviconlogo.ico
 app_touch_icon: /assets/img/faviconlogo.png
