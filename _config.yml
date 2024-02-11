@@ -37,14 +37,14 @@ keywords:              ["Maths", "Cryptography", "Programming", "Jekyll"]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/author.png
+logo:                  /assets/img/author.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name:                Haeju Kim
  #email:               
-  picture:             /assets/img/author.png
+  picture:             /assets/img/author.jpg
   social:
    #linkedin:          
     github:            haehejheyju
@@ -343,4 +343,4 @@ feed:
     - Programming
 
 favicon: /assets/icons/faviconlogo.ico
-app_touch_icon: /assets/img/faviconlogo.png
+app_touch_icon: /assets/img/faviconlogo.jpg
