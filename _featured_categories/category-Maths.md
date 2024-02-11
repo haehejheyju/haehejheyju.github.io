@@ -1,9 +1,9 @@
 ---
 layout: list
 type: category
-title:  Maths
-slug:   maths
-sidebar: true
+bigtitle:  Maths
+sitemap: true
+hide_description: false
 order: 1
 description: >
   All about Mathematics.

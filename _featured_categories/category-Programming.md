@@ -1,9 +1,9 @@
 ---
 layout: list
 type: category
-title:  Programming
-slug:   programming
-sidebar: true
+bigtitle:  Programming
+sitemap: true
+hide_description: false
 order: 3
 description: >
   All about Programming.
