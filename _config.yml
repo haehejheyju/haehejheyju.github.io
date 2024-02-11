@@ -1,6 +1,15 @@
 lang:                  en
 title:                 haehejheyju
+
+description:           >
+  Welcome to haehejheyju.
+
+tagline:               >
+  Hello! Pleased to meet you.
+
 copyright:             © 2024. All rights reserved.
+
+permalink: none
 
 accent_image:          /assets/img/sidebar.jpg
 accent_color:          rgb(179,165,128)
@@ -85,7 +94,19 @@ menu:
   - title: Programming
     url:   /programming/
 
+collections:
+ featured_categories:
+   permalink: /:Maths/
+   output: true
+
+   permalink: /:Cryptography/
+   output: true
+
+   permalink: /:Programming/
+   output: true
+
 author:
+  name: Haeju Kim
   social:
     github: haehejheyju
 

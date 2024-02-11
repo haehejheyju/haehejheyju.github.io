@@ -146,7 +146,6 @@ It is noticeably faster to find W(n) in binary notation as all you need to do is
 
 The Josephus problem is a well known puzzle in Mathematics and Computer science; some even claim that it is an ancient Maths problem beloved by many Computer scientists. Although the proofs above are done by mathematical means, the concept of this problem is also applied in Computer science to computer algorithms, data structures, and image encryption. The proof I have shown above is the simplest approach to solve the Josephus problem, I suppose. Nonetheless, I believe this was more than enough to boost my enthusiasm towards solving problems or theorems that both Mathematics and Computer science intersect. ~~I could have done a deeper research on the Josephus problem - the one with more ‘advanced’ maths equations, but I just could not wait to upload my first post on my GitHub hosted website!~~ I should, perhaps, re-approach the Josephus problem with codes or that ‘advanced’ maths equations in the not-too-distant future to obtain a wider perspective of understanding certain problems.
 
-Hi, hello.
 ---
 
 ## REFERENCES
