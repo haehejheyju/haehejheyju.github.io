@@ -1,8 +1,7 @@
 ---
-layout: page
-title: The Josephus Problem
-permalink: /maths/
-date: 29th Jan 2024
+layout: post
+title: "The Josephus Problem"
+categories: Maths
 ---
 
 The problem probably dates back to the "decimatio", the collective punishment practised by the Roman army where every tenth man in a detachment was chosen by drawing lots and punished. In literature, it is linked to an event that occurred in the life of the Jewish historian Flavius Josephus in 67 A.D. – hence the name "the Josephus problem": when the city of Yodfat was besieged by the Roman General Vespasian, the Jewish soldiers decided to commit collective suicide. Nonetheless, Josephus was afraid to disagree so he suggested to arrange themselves in such a way that he and his best friend remained at the end after drawing lots.
@@ -147,6 +146,7 @@ It is noticeably faster to find W(n) in binary notation as all you need to do is
 
 The Josephus problem is a well known puzzle in Mathematics and Computer science; some even claim that it is an ancient Maths problem beloved by many Computer scientists. Although the proofs above are done by mathematical means, the concept of this problem is also applied in Computer science to computer algorithms, data structures, and image encryption. The proof I have shown above is the simplest approach to solve the Josephus problem, I suppose. Nonetheless, I believe this was more than enough to boost my enthusiasm towards solving problems or theorems that both Mathematics and Computer science intersect. ~~I could have done a deeper research on the Josephus problem - the one with more ‘advanced’ maths equations, but I just could not wait to upload my first post on my GitHub hosted website!~~ I should, perhaps, re-approach the Josephus problem with codes or that ‘advanced’ maths equations in the not-too-distant future to obtain a wider perspective of understanding certain problems.
 
+Hi, hello.
 ---
 
 ## REFERENCES
