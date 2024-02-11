@@ -1,4 +1,4 @@
-lang:                  ko-KR, en-US
+lang:                  ko-KR, en-UK
 
 title:                 haehejheyju
 
@@ -33,10 +33,6 @@ font_heading:          EB+Garamond, Domine, serif
     values:
       seo:
         type:          WebPage
-
-hydejack:
-  post_addons:         [about, newsletter, related, random, comments]
-  project_addons:      [about, newsletter, other, comments]
 
   no_mark_external:    false
   no_push_state:       false
@@ -91,6 +87,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+
 include:
   - .well-known
   - LICENSE.md
@@ -109,8 +106,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-last-modified-at
   - jemoji
-
-#google_site_verification: "zIn7l_GwuOi4WnyRQsdhI9Jpn6IAs0SLR_4HG8OZzsM"
 
 optional_front_matter:
   remove_originals:    true
